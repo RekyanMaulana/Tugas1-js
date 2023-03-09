@@ -1,0 +1,38 @@
+<script>
+    document.write("<h1 align='center'>Rumus Bangun Datar</h1>")
+    document.write("<hr/>")
+
+    //Persegi Panjang
+    var p = 15; //panjang
+    var l = 7; //lebar
+
+    let kel_pp = 2*(p+l);
+    let luas_pp = p*l;
+
+    document.write("<h3>Persegi Panjang</h3>");
+    document.write("Sebuah persegi panjang memiliki panjang "+p+" cm dan lebar "+l+" cm"+"<br> Keliling : "+kel_pp +"<br> Luas : "+luas_pp)
+    document.write("<hr/>");
+
+    //Jajar Genjang
+    var a = 7; //alas
+    var b = 5; //sisi samping
+    var t = 4; //tinggi
+
+    let kel_jg = (2*a) + (2*b);
+    let luas_jg = a*t;
+
+    document.write("<h3>Jajar Genjang</h3>");
+    document.write("Sebuah jajar genjang memiliki alas "+a+" cm, sisi samping "+b+" cm dan tinggi "+t+" cm <br> Keliling : "+kel_jg +"<br> Luas : "+luas_jg)
+    document.write("<hr/>");
+
+    //Segitiga
+    var a1 = 10; //alas
+    var t1 = 8; //tinggi
+
+    let kel_s = a1+a1+a1;
+    let luas_s = a1*t1;
+
+    document.write("<h3>Segitiga (sama sisi)</h3>");
+    document.write("Sebuah segitiga sama sisi memiliki alas "+a1+" cm dan tinggi "+t1+" cm"+"<br> Keliling : "+kel_s +"<br> Luas : "+luas_s)
+    document.write("<hr/>");
+</script>
